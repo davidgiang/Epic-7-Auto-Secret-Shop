@@ -20,7 +20,7 @@
 ###
 
 from ImageDetection import AutoSecretShop
-ASS = AutoSecretShop(3, 'cov_bm.png', 'covbuybutton.png', 'mm_bm.png', 'mmbuybutton.png', 'refreshbutton.png', 'refreshconfirm.png')
+ASS = AutoSecretShop(1500, 'cov_bm.png', 'covbuybutton.png', 'mm_bm.png', 'mmbuybutton.png', 'refreshbutton.png', 'refreshconfirm.png')
 ASS.startASS()
 
 ###
