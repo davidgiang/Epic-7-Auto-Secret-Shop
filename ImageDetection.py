@@ -192,7 +192,7 @@ class AutoSecretShop():
         pyautogui.click(button='left', clicks=2, interval=0.1)
         self.mm_count += 1
         self.gold -= 280000
-        gold_amt(self.gold)
+        gold_amt.set(self.gold)
         time.sleep(0.125)
 
     def checkDispatchMission(self):
