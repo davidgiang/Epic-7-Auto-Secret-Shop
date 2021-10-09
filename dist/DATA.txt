@@ -58,3 +58,8 @@ Skystones: 3 | Covenant Bookmarks: 0 | Mystic Medals: 0
 Skystones: 6999 | Covenant Bookmarks: 47 | Mystic Medals: 7
 Skystones: 1548 | Covenant Bookmarks: 18 | Mystic Medals: 2
 Skystones: 24 | Covenant Bookmarks: 0 | Mystic Medals: 0
+Skystones: 9 | Covenant Bookmarks: 0 | Mystic Medals: 0
+Skystones: 3 | Covenant Bookmarks: 1 | Mystic Medals: 0
+Skystones: 3 | Covenant Bookmarks: 1 | Mystic Medals: 0
+Skystones: 9999 | Covenant Bookmarks: 97 | Mystic Medals: 26
+Skystones: 21 | Covenant Bookmarks: 2 | Mystic Medals: 0

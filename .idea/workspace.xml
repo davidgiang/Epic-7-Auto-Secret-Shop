@@ -5,28 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DATA.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageDetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/warn-ImageDetection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/warn-ImageDetection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ImageDetection/xref-ImageDetection.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/ImageDetection/xref-ImageDetection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cov_bm.png" beforeDir="false" afterPath="$PROJECT_DIR$/cov_bm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covbuybutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/covbuybutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ImageDetection.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ImageDetection.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cov_bm.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cov_bm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/covbuybutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/covbuybutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mm_bm.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mm_bm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mmbuybutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mmbuybutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/refreshbutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/refreshbutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/refreshconfirm.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/refreshconfirm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mm_bm.png" beforeDir="false" afterPath="$PROJECT_DIR$/mm_bm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmbuybutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/mmbuybutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refreshbutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/refreshbutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refreshconfirm.png" beforeDir="false" afterPath="$PROJECT_DIR$/refreshconfirm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/DATA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/DATA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new 1.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +27,7 @@
   <component name="ProjectId" id="1Z9QLxz84xKDasetKfRXapTybuY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Auto Hunt Buffer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">

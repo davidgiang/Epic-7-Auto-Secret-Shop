@@ -13,7 +13,7 @@ class AutoSecretShop():
     stop_bool = False
     skystones_spent = 0
 
-    def __init__(self, skystones, gold, cov_bm_line, cov_bm_buy, mystic_bm_line, mystic_bm_buy, refresh_button, refresh_confirm):
+    def __init__(self, skystones, gold, cov_bm_line, cov_bm_buy, mystic_bm_line, mystic_bm_buy, refresh_button, refresh_confirm, try_again):
         self.skystones = skystones
         self.gold = gold
         self.cov_bm_line = cov_bm_line
@@ -22,6 +22,7 @@ class AutoSecretShop():
         self.mystic_bm_buy = mystic_bm_buy
         self.refresh_button = refresh_button
         self.refresh_confirm = refresh_confirm
+        self.try_again = try_again
 
     def startASS(self):
         num_skystones = self.skystones
@@ -46,6 +47,7 @@ class AutoSecretShop():
                     self.stop_bool = True
                     break
 
+            self.checkDispatchMission()
             time.sleep(0.5)
             self.findAndBuyCovenantBookmark()
             time.sleep(0.5)
@@ -100,7 +102,7 @@ class AutoSecretShop():
 
     def refreshShop(self):
         print("Refreshing shop")
-        refresh_button = pyautogui.locateOnScreen(self.refresh_button, confidence = 0.9)
+        refresh_button = pyautogui.locateOnScreen(self.refresh_button, confidence = 0.9, grayscale=True)
 
         if refresh_button == None:
             print("No refresh button found")
@@ -110,7 +112,7 @@ class AutoSecretShop():
         pyautogui.click(button='left', clicks=2, interval=0.1)
         time.sleep(0.125)
 
-        refresh_confirm = pyautogui.locateOnScreen(self.refresh_confirm, confidence = 0.9)
+        refresh_confirm = pyautogui.locateOnScreen(self.refresh_confirm, confidence = 0.9, grayscale=True)
 
         if refresh_confirm == None:
             print("No refresh confirm button found")
@@ -134,7 +136,7 @@ class AutoSecretShop():
 
     def findAndBuyCovenantBookmark(self):
         print("Finding covenant bookmark image")
-        cov_bm_box = pyautogui.locateOnScreen(self.cov_bm_line, confidence = 0.9)
+        cov_bm_box = pyautogui.locateOnScreen(self.cov_bm_line, confidence = 0.9, grayscale=True)
 
         if cov_bm_box == None:
             print("No covenant bookmarks found")
@@ -149,7 +151,7 @@ class AutoSecretShop():
         pyautogui.click(button='left', clicks=2, interval=0.1)
         time.sleep(0.125)
         # move to buy button
-        cov_buy_button = pyautogui.locateOnScreen(self.cov_bm_buy, confidence = 0.9)
+        cov_buy_button = pyautogui.locateOnScreen(self.cov_bm_buy, confidence = 0.9, grayscale=True)
 
         if cov_buy_button == None:
             print("No covenant buy button found")
@@ -158,12 +160,13 @@ class AutoSecretShop():
         pyautogui.moveTo(cov_buy_button)
         pyautogui.click(button='left', clicks=2, interval=0.1)
         self.cov_count += 1
-        gold_amt.set(self.gold - 184000)
+        self.gold -= 184000
+        gold_amt.set(self.gold)
         time.sleep(0.125)
 
     def findAndBuyMysticMedal(self):
         print("Finding mystic medal image")
-        mm_box = pyautogui.locateOnScreen(self.mystic_bm_line, confidence = 0.9)
+        mm_box = pyautogui.locateOnScreen(self.mystic_bm_line, confidence = 0.9, grayscale=True)
 
         if mm_box== None:
             print("No mystic medal found")
@@ -179,7 +182,7 @@ class AutoSecretShop():
         time.sleep(0.125)
 
         # move to buy button
-        mm_buy_button = pyautogui.locateOnScreen(self.mystic_bm_buy, confidence = 0.9)
+        mm_buy_button = pyautogui.locateOnScreen(self.mystic_bm_buy, confidence = 0.9, grayscale=True)
 
         if mm_buy_button == None:
             print("No mystic medal buy button found")
@@ -188,8 +191,18 @@ class AutoSecretShop():
         pyautogui.moveTo(mm_buy_button)
         pyautogui.click(button='left', clicks=2, interval=0.1)
         self.mm_count += 1
-        gold_amt.set(self.gold - 280000)
+        self.gold -= 280000
+        gold_amt(self.gold)
         time.sleep(0.125)
+
+    def checkDispatchMission(self):
+        try_again = pyautogui.locateOnScreen(self.try_again, confidence = 0.9, grayscale=True)
+
+        if try_again == None:
+            print("no dispatch mission pop-up")
+        else:
+            pyautogui.moveTo(try_again)
+            pyautogui.click(button='left')
 
 
 ####################################################
@@ -205,7 +218,7 @@ gold_amt.set('Not entered')
 def bootUp():
     try:
         global ASS
-        ASS = AutoSecretShop(int(skystone_amt.get()), int(gold_amt.get()), 'cov_bm.png', 'covbuybutton.png', 'mm_bm.png', 'mmbuybutton.png', 'refreshbutton.png', 'refreshconfirm.png')
+        ASS = AutoSecretShop(int(skystone_amt.get()), int(gold_amt.get()), 'cov_bm.png', 'covbuybutton.png', 'mm_bm.png', 'mmbuybutton.png', 'refreshbutton.png', 'refreshconfirm.png', 'dispatch_tryagain.png')
         print("ASS initiated")
         print(ASS)
     except:
