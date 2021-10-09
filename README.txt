@@ -1,9 +1,9 @@
-1. Change resolution of emulator to 1280x720 and use a fixed window size (so that it is not resizable)
+1. Change resolution of emulator to 1280x720
 
-2. Position the emulator on the center of the screen (does not need to be pixel perfect)
+2. Input how much skystones / gold you wish to use. 
 
-3. Run the program as administrator
+3. Go to secret shop screen and run.
 
-4. Good to go
+4. If you experience any problems with image detection, you will have to upload your own images. Simply create screenshots of the pictures inside the folder and replace them with your own
 
-If you experience any problems with image detection, you will have to upload your own images
+NOTE: Dispatch missions will interfere with secret shopping, so if you plan to do this overnight I recommend canceling any dispatch missions you have running.
