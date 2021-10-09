@@ -38,3 +38,9 @@ Skystones: 0 | Covenant Bookmarks: 0 | Mystic Medals: 0
 Skystones: 0 | Covenant Bookmarks: 0 | Mystic Medals: 0
 Skystones: 3 | Covenant Bookmarks: 0 | Mystic Medals: 1
 Skystones: 3 | Covenant Bookmarks: 0 | Mystic Medals: 0
+Skystones: 6 | Covenant Bookmarks: 0 | Mystic Medals: 0
+Skystones: 24 | Covenant Bookmarks: 0 | Mystic Medals: 0
+Skystones: 48 | Covenant Bookmarks: 1 | Mystic Medals: 0
+Skystones: 3 | Covenant Bookmarks: 0 | Mystic Medals: 0
+Skystones: 3 | Covenant Bookmarks: 0 | Mystic Medals: 1
+Skystones: 240 | Covenant Bookmarks: 5 | Mystic Medals: 1

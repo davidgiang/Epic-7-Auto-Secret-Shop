@@ -46,19 +46,19 @@ class AutoSecretShop():
                     self.stop_bool = True
                     break
 
-            time.sleep(1)
+            time.sleep(0.5)
             self.findAndBuyCovenantBookmark()
-            time.sleep(1)
+            time.sleep(0.5)
             self.findAndBuyMysticMedal()
 
-            time.sleep(1)
+            time.sleep(0.5)
             self.scrollDown()
-            time.sleep(1)
+            time.sleep(0.5)
 
             self.findAndBuyCovenantBookmark()
-            time.sleep(1)
+            time.sleep(0.5)
             self.findAndBuyMysticMedal()
-            time.sleep(1)
+            time.sleep(0.5)
             if self.stop_bool == True:
                 print("Stopping midway")
                 break
@@ -70,7 +70,6 @@ class AutoSecretShop():
                 self.skystones_spent += 3
                 skystone_amt.set(num_skystones)
                 self.refreshShop()
-            time.sleep(1)
 
         if self.stop_bool != True and self.last_flag == True:
             time.sleep(1)
